@@ -7,10 +7,10 @@ const box = 32;
 
 //load images
 const ground = new Image();
-ground.src = "C:/Users/abdis/Documents/Snake/img/ground.png";
+ground.src = "img/ground.png";
 
 const foodImg = new Image();
-foodImg.src = "C:/Users/abdis/Documents/Snake/img/food.png";
+foodImg.src = "img/food.png";
 
 //load audio
 const dead = new Audio();
@@ -20,12 +20,12 @@ const left = new Audio();
 const right = new Audio();
 const down = new Audio();
 
-dead.src = "C:/Users/abdis/Documents/Snake/audio/dead.mp3";
-eat.src = "C:/Users/abdis/Documents/Snake/audio/eat.mp3";
-up.src = "C:/Users/abdis/Documents/Snake/audio/up.mp3";
-left.src = "C:/Users/abdis/Documents/Snake/audio/left.mp3";
-right.src = "C:/Users/abdis/Documents/Snake/audio/right.mp3";
-down.src = "C:/Users/abdis/Documents/Snake/audio/down.mp3";
+dead.src = "audio/dead.mp3";
+eat.src = "audio/eat.mp3";
+up.src = "audio/up.mp3";
+left.src = "audio/left.mp3";
+right.src = "audio/right.mp3";
+down.src = "audio/down.mp3";
 
 
 //create the Snake
